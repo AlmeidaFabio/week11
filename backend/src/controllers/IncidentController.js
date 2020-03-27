@@ -35,7 +35,7 @@ module.exports = {
             ong_id
         })
 
-        return res.json({id})
+        return res.json({id}) 
     },
 
     async delete(req, res) {
